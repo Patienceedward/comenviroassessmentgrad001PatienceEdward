@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"
+  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+  layout:decorate="~{resources/templates/layout.html}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/disposal.css">
+  <style>
+      /* image CSS styles */
+      .image-container {
+          text-align: center; /* Center the image horizontally */
+          margin-top: 20px; /* Add space above the image */
+      }
+
+      .image-container img {
+          max-width: 100%; /* Ensure the image doesn't exceed its container width */
+          height: auto; /* Maintain aspect ratio */
+          border-radius: 8px; /* Add rounded corners */
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+      }
+  </style>
+   <div class="image-container">
+     <img src="/images/Recycling_4.jpg" alt="Image Description">
+      </div>
+    <title>Disposal Guidelines</title>
+</head>
+<body>
+<div layout:fragment="contents">
+    <h1>Disposal Guidelines</h1>
+    <h2>Plastic</h2>
+    <p th:text="${plasticGuideline.guideline}"></p>
+    <h2>Paper</h2>
+    <p th:text="${paperGuideline.guideline}"></p>
+    <h2>Glass</h2>
+    <p th:text="${glassGuideline.guideline}"></p>
+    <h2>Metal</h2>
+    <p th:text="${MetalGuideline.guideline}"></p>
+    <h2>Batteries</h2>
+    <p th:text="${BatteriesGuideline.guideline}"></p>
+    <h2>Electronic</h2>
+    <p th:text="${ElectronicsGuideline.guideline}"></p>
+    <h2>FoodWaste</h2>
+    <p th:text="${FoodWasteGuideline.guideline}"></p>
+    <h2>Hazardous</h2>
+    <p th:text="${HazardousWasteGuideline.guideline}"></p>
+    <h2>Clothings</h2>
+    <p th:text="${ClothingsGuideline.guideline}"></p>
+    <h2>Medications</h2>
+    <p th:text="${MedicationsGuideline.guideline}"></p>
+</div>
+</body>
+</html>

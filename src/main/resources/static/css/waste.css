@@ -1,0 +1,79 @@
+
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #97cf72, #20c31d); /* Colorful gradient background */
+    font-size: 18px;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #fff; /* White background */
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Stylish drop shadow */
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #13e72c; /* Vibrant pink text */
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding-left: 25px;
+    position: relative;
+    font-size: 24px;
+    color: #333; /* Slightly darker text color for contrast */
+}
+
+li::before {
+    content: "\f00c"; /* FontAwesome icon for checkmark */
+    font-family: FontAwesome;
+    color: #0095FF; /* Bright blue checkmark */
+    font-weight: normal;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.3em;
+    position: absolute;
+    left: 0;
+}
+
+/* Hover effect for list items */
+li:hover {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    li {
+        font-size: 20px;
+        padding-left: 15px;
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "files": {
+    "src/main/java/com/enviro/assessment/grad001/patienceEdward/controller/WasteController.java": [
+      {
+        "id": "1e186221-d72d-47cd-a7d7-4dde17fc2206",
+        "line": 1,
+        "version": 103,
+        "index": 0
+      }
+    ],
+    "src/main/java/com/enviro/assessment/grad001/patienceEdward/model/DisposalGuideline.java": [
+      {
+        "id": "aa6e76da-9c09-4858-a5ff-0b0e8e8991d8",
+        "line": 1,
+        "version": 16,
+        "index": 59
+      }
+    ],
+    "src/main/java/com/enviro/assessment/grad001/patienceEdward/model/WasteController.java": [
+      {
+        "id": "1b7b91fe-04bb-42be-9f78-5ac6846e0e90",
+        "line": 1,
+        "version": 0,
+        "index": 0
+      }
+    ],
+    "src/main/resources/templates/index.html": [
+      {
+        "id": "36fafa2c-edc8-41d3-9ecf-a008fb037519",
+        "line": 1,
+        "version": 86,
+        "index": 0
+      }
+    ]
+  }
+}

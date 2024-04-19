@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"
+  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+  layout:decorate="~{/templates/layout.html}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/recycling.css">
+  <style>
+      /* image CSS styles */
+      .image-container {
+          text-align: center; /* Center the image horizontally */
+          margin-top: 20px; /* Add space above the image */
+      }
+
+      .image-container img {
+          max-width: 100%; /* Ensure the image doesn't exceed its container width */
+          height: auto; /* Maintain aspect ratio */
+          border-radius: 8px; /* Add rounded corners */
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+      }
+  </style>
+    <title>Recycling Tips</title>
+</head>
+<body>
+<div layout:fragment="contents">
+    <h1>Recycling Tips</h1>
+  <div class="image-container">
+   <img src="/images/Recycling_4.jpg" alt="Image Description">
+    </div>
+  <ul>
+      <li th:text="${tip1.tip}"></li>
+      <li th:text="${tip2.tip}"></li>
+      <li th:text="${tip3.tip}"></li>
+      <li th:text="${tip4.tip}"></li>
+      <li th:text="${tip5.tip}"></li>
+  </ul>
+</div>
+</body>
+</html>

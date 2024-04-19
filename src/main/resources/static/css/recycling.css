@@ -1,0 +1,49 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light grey background */
+    color: #333; /* Default text color */
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Dark grey text color */
+    font-size: 36px; /* Larger font size for headings */
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f1f8e9; /* Light green background */
+    border-left: 5px solid #4CAF50; /* Green left border */
+    border-radius: 3px;
+    font-size: 18px; /* Larger font size for list items */
+    color: #333; /* Dark grey text color */
+    cursor: pointer;
+    transition: background-color 0.3s, border-left-color 0.3s;
+}
+
+li:hover {
+    background-color: #dcedc8; /* Light green background on hover */
+    border-left-color: #2e7d32; /* Darker green left border on hover */
+}

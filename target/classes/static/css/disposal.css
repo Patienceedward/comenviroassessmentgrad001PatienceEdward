@@ -1,0 +1,134 @@
+
+
+/* Add background image and gradient to engage users */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    padding: 20px; /* Add padding for spacing */
+    background-image: url("/images/recycling-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+
+/* Main heading styles */
+h1 {
+    text-align: center;
+    margin-top: 30px; /* Reduced margin top */
+    color: #FFF;
+    font-size: 32px; /* Increased font size for main heading */
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* Subheading styles */
+h2 {
+    margin-top: 20px; /* Reduced margin top */
+    color: #FFF;
+    font-size: 24px; /* Increased font size for subheading */
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Paragraph styles */
+p {
+    margin-top: 10px;
+    color: #FFF;
+    line-height: 1.5;
+    font-size: 16px; /* Default font size for paragraphs */
+    text-shadow: 0.5px 0.5px 1px #000;
+}
+
+
+/* Button styles - Add subtle hover effects */
+.btn {
+    color: #FFF;
+    background-color: #007bff; /* Attractive blue color for buttons */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to buttons */
+}
+
+.btn:hover {
+    background-color: #0062cc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+/* Image container styles - Center images and add subtle border */
+.image-container {
+    text-align: center; /* Center the image horizontally */
+    margin-top: 20px; /* Add space above the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        margin-top: 20px; /* Reduced margin top */
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px; /* Reduced font size for paragraphs */
+    }
+
+    .btn {
+        padding: 8px 16px; /* Reduced padding for smaller screens */
+        font-size: 14px;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+/* Main heading styles */
+h1 {
+    text-align: center;
+    margin-top: 30px; /* Reduced margin top */
+    color: #333;
+    font-size: 32px; /* Increased font size for main heading */
+}
+
+/* Subheading styles */
+h2 {
+    margin-top: 20px; /* Reduced margin top */
+    color: #007bff; /* blue color */
+    font-size: 24px; /* Increased font size for subheading */
+}
+
+/* Paragraph styles */
+p {
+    margin-top: 10px;
+    color: #666;
+    line-height: 1.5;
+    font-size: 16px; /* Default font size for paragraphs */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        margin-top: 20px; /* Reduced margin top */
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px; /* Reduced font size for paragraphs */
+    }
+}
